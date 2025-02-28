@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:spdx="http://spdx.org/rdf/terms#" xmlns:dcatde="http://dcat-ap.de/def/dcatde/" xmlns:dcatap="http://data.europa.eu/r5r/" xmlns:locn="http://www.w3.org/ns/locn#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2006/vcard/ns#">
+  <!-- Katalog -->
+  <dcat:Catalog rdf:about="https://daten.bmwk.de">
+    <dcterms:title>Open Data Portal Wirtschaft und Klimaschutz</dcterms:title>
+    <dcterms:description>Beschreibung des Open Data Portal Wirtschaft und Klimaschutz</dcterms:description>
+    <dcat:dataset>
+      <dcat:Dataset rdf:about="http://daten.bmwk.de/c9c3cbcf-06d3-3861-901d-651c24cf7477">
+        <!-- Titel des Datensatzes -->
+        <dcterms:title>Daten zum Gleichwertigkeitsbericht 2024 der Bundesregierung</dcterms:title>
+        <!-- Beschreibung -->
+        <dcterms:description xml:lang="DE">​Die Bundesregierung hat 2024 erstmalig einen Gleichwertigkeitsbericht veröffentlicht. Der Bericht enthält eine umfassende Analyse des Stands und der Entwicklung der Lebensbedingungen vor Ort auf Basis von Indikatoren auf Ebene der deutschen Landkreise und kreisfreien Städte ebenso wie Ergebnisse einer Bevölkerungsumfrage zu gleichwertigen Lebensverhältnissen und einem Überblick über die regionale Mittelverteilung der Förderprogramme, die im Gesamtdeutschen Fördersystem für strukturschwache Regionen enthalten sind.</dcterms:description>
+        <!-- Distribution -->
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://daten.bmwk.de/3e7dd62b-8a84-34ab-8655-86329ccc42ad">
+            <dcat:accessURL rdf:resource="http://daten.bmwk.de/3e7dd62b-8a84-34ab-8655-86329ccc42ad"/>
+            <dcterms:title>Daten des Indikatorensets zu Berichtsteil II "Gleichwertige Lebensverhältnisse in Deutschland - aktueller Stand und Entwicklung auf regionaler Ebene"</dcterms:title>
+            <dcterms:description>Analyse des Stands und der Entwicklung der Lebensbedingungen vor Ort auf Basis von Indikatoren auf Ebene der deutschen Landkreise und kreisfreien Städte</dcterms:description>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/vnd.ms-excel"/>
+            <!-- Veröffentlichungsdatum  -->
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-06</dct:issued>
+            <!-- Aktualisierungsdatumg -->
+            <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-03T00:00:00</dcterms:modified>
+            <dcterms:license rdf:resource="http://dcat-ap.de/def/licenses/cc-by/4.0"/>
+            <dcatde:licenseAttributionByText xml:lang="de">Gleichwertigkeitsbericht der Bundesregierung 2024; ergänzend: Verweis auf Datengrundlage</dcatde:licenseAttributionByText>
+            <!-- Sprache -->
+            <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
+            <!-- Verfügbarkeit -->
+            <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <!-- Distribution -->
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://daten.bmwk.de/1337da27-bae0-343a-a89d-8a6ef6e7b80a">
+            <dcat:accessURL rdf:resource="http://daten.bmwk.de/1337da27-bae0-343a-a89d-8a6ef6e7b80a"/>
+            <dcterms:title>Daten der Bevölkerungsumfrage zu Berichtsteil III "Gleichwertige Lebensverhältnisse aus Sicht der Bürgerinnen und Bürger"</dcterms:title>
+            <dcterms:description>Antwortverhalten bei der Bevölkerungsumfrage auf Ebene der deutschen Landkreise und kreisfreien Städte</dcterms:description>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/vnd.ms-excel"/>
+            <!-- Veröffentlichungsdatum  -->
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-06</dct:issued>
+            <!-- Aktualisierungsdatumg -->
+            <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-03T00:00:00</dcterms:modified>
+            <dcterms:license rdf:resource="http://dcat-ap.de/def/licenses/cc-by/4.0"/>
+            <dcatde:licenseAttributionByText xml:lang="de">Gleichwertigkeitsbericht der Bundesregierung 2024</dcatde:licenseAttributionByText>
+            <!-- Sprache -->
+            <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
+            <!-- Verfügbarkeit -->
+            <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <!-- Distribution -->
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://daten.bmwk.de/aaa3212d-aa20-322f-a00d-dfe30bf7c1bd">
+            <dcat:accessURL rdf:resource="http://daten.bmwk.de/aaa3212d-aa20-322f-a00d-dfe30bf7c1bd"/>
+            <dcterms:title>Daten zur GFS-Mittelverteilung zu Berichtsteil V "Maßnahmen der Bundesregierung zur Stärkung gleichwertiger Lebensverhältnisse in Deutschland"</dcterms:title>
+            <dcterms:description>Mitteleinsatz der Programme des GFS auf Ebene der deutschen Landkreise und kreisfreien Städte</dcterms:description>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/vnd.ms-excel"/>
+            <!-- Veröffentlichungsdatum  -->
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-06</dct:issued>
+            <!-- Aktualisierungsdatumg -->
+            <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-03T00:00:00</dcterms:modified>
+            <dcterms:license rdf:resource="http://dcat-ap.de/def/licenses/cc-by/4.0"/>
+            <dcatde:licenseAttributionByText xml:lang="de">Gleichwertigkeitsbericht der Bundesregierung 2024</dcatde:licenseAttributionByText>
+            <!-- Sprache -->
+            <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
+            <!-- Verfügbarkeit -->
+            <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcatde:contributorID rdf:resource="http://dcat-ap.de/def/contributors/bundesministeriumFuerWirtschaftUndKlimaschutz"/>
+        <!-- es fehlte noch der Datenbereitsteller-ID Eintrag für eine potentielle Anlieferung an GovData -->
+        <!-- Autor -->
+        <dcterms:creator>
+          <foaf:Organization>
+            <foaf:name>Bundesministerium für Wirtschaft und Klimaschutz</foaf:name>
+          </foaf:Organization>
+        </dcterms:creator>
+        <!-- Herausgeber -->
+        <dcterms:publisher>
+          <foaf:Organization rdf:nodeID="Nd76d04a79c2445aabcd4275e94c2bd28">
+            <foaf:name>Bundesministerium für Wirtschaft und Klimaschutz</foaf:name>
+            <foaf:mbox>OpenData@bmwk.bund.de</foaf:mbox>
+          </foaf:Organization>
+        </dcterms:publisher>
+        <dct:originator>
+          <dcat:contactPoint>
+            <vcard:fn>Bundesministerium für Wirtschaft und Klimaschutz</vcard:fn>
+            <vcard:hasEmail>buero-ID1@bmwk.bund.de</vcard:hasEmail>
+            <vcard:hasLocality>Berlin</vcard:hasLocality>
+            <vcard:hasPostalCode>10115</vcard:hasPostalCode>
+            <vcard:hasCountryName>Deutschland</vcard:hasCountryName>
+            <vcard:hasStreetAddress>Scharnhorststr. 34‐37</vcard:hasStreetAddress>
+          </dcat:contactPoint>
+        </dct:originator>
+        <!-- Ebene der geopolitischen Abdeckung URI des Publishers -->
+        <dcatde:politicalGeocodingLevelURI rdf:resource="http://dcat-ap.de/def/politicalGeocoding/Level/federal"/>
+        <!-- Räumliche Abdeckung -->
+        <dct:spatial>
+          <dct:Location rdf:about="http://publications.europa.eu/resource/authority/country/DEU">
+            <locn:geographicName>Bundesrepublik Deutschland</locn:geographicName>
+          </dct:Location>
+        </dct:spatial>
+        <!-- Zeitliche Abdeckung -->
+        <dcterms:temporal>
+          <dcterms:PeriodOfTime>
+            <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-12-31</dcat:endDate>
+          </dcterms:PeriodOfTime>
+        </dcterms:temporal>
+        <!-- Schlagworte -->
+        <dcat:keyword>Gleichwertige Lebensverhältnisse</dcat:keyword>
+        <dcat:keyword>Regionalpolitik</dcat:keyword>
+        <dcat:keyword>Strukturpolitik</dcat:keyword>
+        <dcat:keyword>Gesamtdeutsches Fördersystem für strukturschwache Regionen (GFS)</dcat:keyword>
+        <dcat:keyword>GRW</dcat:keyword>
+        <!-- Kategorie -->
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/JUST"/>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TRAN"/>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+        <!-- Veröffentlichungsdatum  -->
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-07-03</dcterms:issued>
+        <!-- Aktualisierungsdatumg -->
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-03T00:00:00</dcterms:modified>
+        <!-- Aktualisierungsfrequenz -->
+        <!-- Sprache -->
+        <!-- Rechtsgrundlage für Zugangseröffnung -->
+        <!-- Application Profile der Metadaten -->
+        <dct:conformsTo rdf:resource="http://dcat-ap.de/def/dcatde/3.0/"/>
+      </dcat:Dataset>
+    </dcat:dataset>
+    <!-- Herausgeber -->
+    <dcterms:publisher>
+      <foaf:Organization rdf:nodeID="Nd76d04a79c2445aabcd4275e94c2bd28">
+        <foaf:name>Bundesministerium für Wirtschaft und Klimaschutz</foaf:name>
+        <foaf:mbox>OpenData@bmwk.bund.de</foaf:mbox>
+      </foaf:Organization>
+    </dcterms:publisher>
+    <dcat:dataset xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dct="http://purl.org/dc/terms/" xmlns:dcatde="http://dcat-ap.de/def/dcatde/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:vcard="http://www.w3.org/2006/vcard/ns#" xmlns:locn="http://www.w3.org/ns/locn#">
+      <dcat:Dataset rdf:about="http://daten.bmwk.de/3ee2f700-5322-33e5-ae1b-ef8cfa608722">
+        <!-- Titel des Datensatzes -->
+        <dcterms:title>Neuordnung und Modernisierung von Ausbildungsordnungen</dcterms:title>
+        <!-- Beschreibung -->
+        <dcterms:description xml:lang="DE">Die Datensätze umfassen eine Auflistung der Ausbildungsordnungen der dualen beruflichen Bildung in Deutschland, den jeweiligen Verordnungsgeber (Bundesministerium) und den Zeitpunkt der letzten Überarbeitung bzw. Modernisierung. Zusätzlich sind die Daten verknüpft mit dem Durchschnitt der im jeweiligen Beruf in den Jahren 2022 und 2023 abgeschlossenen Ausbildungsverträge. Die Anzahl der Auszubildenden je Ausbildungsberuf basiert auf der Erhebung des Bundesinstituts für Berufsbildung (BIBB), Anzahl neu abgeschlossener Ausbildungsverträge 2023 und 2022 nach Geschlecht auf der Ebene der Erhebungsberufe, https://www.bibb.de/de/179174.php. Beschreibung der Daten: Berufsbezeichnung: Ausbildungsordnung der dualen beruflichen Bildung in Deutschland Datum: Datum der letzten Überarbeitung bzw. Modernisierung der Ausbildungsordnung In_Neuordnung: Angabe, ob die Ausbildungsordnung zum Zeitpunkt der Veröffentlichung in Neuordnung ist Ministerium: Verordnungsgeber der Ausbildungsordnung Anzahl: Durchschnitt der nach der Ausbildungsordnung in den Jahren 2022 und 2023 abgeschlossenen Ausbildungsverträge</dcterms:description>
+        <!-- Distribution -->
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://daten.bmwk.de/b1fa5768-6177-3540-9112-e6def41f7d8e">
+            <dcat:accessURL rdf:resource="http://daten.bmwk.de/b1fa5768-6177-3540-9112-e6def41f7d8e"/>
+            <dcterms:title>Neuordnung und Modernisierung von Ausbildungsordnungen</dcterms:title>
+            <dcterms:description/>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/text/csv"/>
+            <!-- Veröffentlichungsdatum  -->
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-06-19</dct:issued>
+            <!-- Aktualisierungsdatumg -->
+            <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-07T00:00:00</dcterms:modified>
+            <dcterms:license rdf:resource="http://dcat-ap.de/def/licenses/cc-zero"/>
+            <!-- Sprache -->
+            <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
+            <!-- Verfügbarkeit -->
+          </dcat:Distribution>
+        </dcat:distribution>
+        <!-- Distribution -->
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://daten.bmwk.de/cf910080-fe7a-3a25-84cb-9f92bb878ff7">
+            <dcat:accessURL rdf:resource="http://daten.bmwk.de/cf910080-fe7a-3a25-84cb-9f92bb878ff7"/>
+            <dcterms:title>Neuordnung und Modernisierung von Ausbildungsordnungen</dcterms:title>
+            <dcterms:description/>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/vnd.ms-excel"/>
+            <!-- Veröffentlichungsdatum  -->
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-06-19</dct:issued>
+            <!-- Aktualisierungsdatumg -->
+            <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-07T00:00:00</dcterms:modified>
+            <dcterms:license rdf:resource="http://dcat-ap.de/def/licenses/cc-zero"/>
+            <!-- Sprache -->
+            <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
+            <!-- Verfügbarkeit -->
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcatde:contributorID rdf:resource="http://dcat-ap.de/def/contributors/bundesministeriumFuerWirtschaftUndKlimaschutz"/>
+        <!-- es fehlte noch der Datenbereitsteller-ID Eintrag für eine potentielle Anlieferung an GovData -->
+        <!-- Autor -->
+        <dcterms:creator>
+          <foaf:Organization>
+            <foaf:name>Bundesministerium für Wirtschaft und Klimaschutz</foaf:name>
+          </foaf:Organization>
+        </dcterms:creator>
+        <!-- Herausgeber -->
+        <dcterms:publisher>
+          <foaf:Organization rdf:nodeID="Nd76d04a79c2445aabcd4275e94c2bd28">
+            <foaf:name>Bundesministerium für Wirtschaft und Klimaschutz</foaf:name>
+            <foaf:mbox>OpenData@bmwk.bund.de</foaf:mbox>
+          </foaf:Organization>
+        </dcterms:publisher>
+        <dct:originator>
+          <dcat:contactPoint>
+            <vcard:fn>Bundesministerium für Wirtschaft und Klimaschutz</vcard:fn>
+            <vcard:hasEmail>buero-viib4@bmwk.bund.de</vcard:hasEmail>
+            <vcard:hasLocality>Berlin</vcard:hasLocality>
+            <vcard:hasPostalCode>10115</vcard:hasPostalCode>
+            <vcard:hasCountryName>Deutschland</vcard:hasCountryName>
+            <vcard:hasStreetAddress>Scharnhorststr. 34‐37</vcard:hasStreetAddress>
+          </dcat:contactPoint>
+        </dct:originator>
+        <!-- Ebene der geopolitischen Abdeckung URI des Publishers -->
+        <dcatde:politicalGeocodingLevelURI rdf:resource="http://dcat-ap.de/def/politicalGeocoding/Level/federal"/>
+        <!-- Räumliche Abdeckung -->
+        <dct:spatial>
+          <dct:Location rdf:about="http://publications.europa.eu/resource/authority/country/DEU">
+            <locn:geographicName>Bundesrepublik Deutschland</locn:geographicName>
+          </dct:Location>
+        </dct:spatial>
+        <!-- Zeitliche Abdeckung -->
+        <dcterms:temporal>
+          <dcterms:PeriodOfTime>
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-01-01</dcat:startDate>
+            <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-06-07</dcat:endDate>
+          </dcterms:PeriodOfTime>
+        </dcterms:temporal>
+        <!-- Schlagworte -->
+        <dcat:keyword>Ausbildung</dcat:keyword>
+        <dcat:keyword>Ausbildungsordnungen</dcat:keyword>
+        <dcat:keyword>Berufsbildung</dcat:keyword>
+        <dcat:keyword>Berufsgruppen</dcat:keyword>
+        <dcat:keyword>Berufsordnungen</dcat:keyword>
+        <!-- Kategorie -->
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+        <!-- Veröffentlichungsdatum  -->
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-06-19</dcterms:issued>
+        <!-- Aktualisierungsdatumg -->
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-07T00:00:00</dcterms:modified>
+        <!-- Aktualisierungsfrequenz -->
+        <!-- Sprache -->
+        <!-- Rechtsgrundlage für Zugangseröffnung -->
+        <!-- Application Profile der Metadaten -->
+        <dct:conformsTo rdf:resource="http://dcat-ap.de/def/dcatde/3.0/"/>
+      </dcat:Dataset>
+    </dcat:dataset>
+    <dcat:dataset xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dct="http://purl.org/dc/terms/" xmlns:dcatde="http://dcat-ap.de/def/dcatde/" xmlns:dcatap="http://data.europa.eu/r5r/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:vcard="http://www.w3.org/2006/vcard/ns#" xmlns:locn="http://www.w3.org/ns/locn#">
+      <dcat:Dataset rdf:about="http://daten.bmwk.de/90dfdbb6-a5d3-3d9b-8495-77d507ab6014">
+        <!-- Titel des Datensatzes -->
+        <dcterms:title>Langfriststrategie Negativemissionen - Stellungnahmen zur Bewertung der Methoden und Technologien zur CO₂-Entnahme</dcterms:title>
+        <!-- Beschreibung -->
+        <dcterms:description xml:lang="DE">Mit der Langfriststrategie Negativemissionen zum Umgang mit unvermeidbaren Restemissionen will die Bundesregierung ein gemeinsames Verständnis der Rolle der CO₂-Entnahme für den Klimaschutz in Deutschland schaffen. Die Langfriststrategie Negativemissionen wird durch das BMWK in einem Beteiligungsverfahren erarbeitet. Die hier veröffentlichten Daten wurden in einer Online-Beteiligung vom 17. Oktober bis zum 17. November 2024 erhoben. Die strukturierte Datenerfassung erfolgte durch das Werkzeug SurveyXact. Es konnten Fragen zu der im Beteiligungsprozess erarbeiteten Bewertung der Methoden und Technologien zur CO₂-Entnahme beantwortet werden. Weitere Informationen zur Langfriststrategie Negativemissionen, dem Beteiligungsverfahren und den der Online-Beteiligung zugrunde liegenden Dokumenten sind auf den Internetseiten des BMWK veröffentlicht.</dcterms:description>
+        <!-- Distribution -->
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://daten.bmwk.de/61b4fc3c-3f2a-3eba-bba7-039c4d31c8ca">
+            <dcat:accessURL rdf:resource="http://daten.bmwk.de/61b4fc3c-3f2a-3eba-bba7-039c4d31c8ca"/>
+            <dcterms:title>Langfriststrategie Negativemissionen - Stellungnahmen zur Bewertung der Methoden und Technologien zur CO₂-Entnahme</dcterms:title>
+            <dcterms:description/>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/vnd.ms-excel"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">123746</dcat:byteSize>
+            <!-- Angabe der Dateigröße in Bytes -->
+            <!-- Veröffentlichungsdatum  -->
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-30</dct:issued>
+            <!-- Aktualisierungsdatumg -->
+            <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-12-30T00:00:00</dcterms:modified>
+            <dcterms:license rdf:resource="http://dcat-ap.de/def/licenses/cc-by/4.0"/>
+            <dcatde:licenseAttributionByText xml:lang="de">Die Daten wurden durch das Bundesministerium für Wirtschaft und Klimaschutz erhoben.</dcatde:licenseAttributionByText>
+            <!-- Sprache -->
+            <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
+            <!-- Verfügbarkeit -->
+            <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/TEMPORARY"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcatde:contributorID rdf:resource="http://dcat-ap.de/def/contributors/bundesministeriumFuerWirtschaftUndKlimaschutz"/>
+        <!-- es fehlte noch der Datenbereitsteller-ID Eintrag für eine potentielle Anlieferung an GovData -->
+        <!-- Autor -->
+        <dcterms:creator>
+          <foaf:Organization>
+            <foaf:name>Bundesministerium für Wirtschaft und Klimaschutz</foaf:name>
+          </foaf:Organization>
+        </dcterms:creator>
+        <!-- Herausgeber -->
+        <dcterms:publisher>
+          <foaf:Organization rdf:nodeID="Nd76d04a79c2445aabcd4275e94c2bd28">
+            <foaf:name>Bundesministerium für Wirtschaft und Klimaschutz</foaf:name>
+            <foaf:mbox>OpenData@bmwk.bund.de</foaf:mbox>
+          </foaf:Organization>
+        </dcterms:publisher>
+        <dct:originator>
+          <dcat:contactPoint>
+            <vcard:fn>Bundesministerium für Wirtschaft und Klimaschutz</vcard:fn>
+            <vcard:hasEmail>KA1@bmwk.bund.de</vcard:hasEmail>
+            <vcard:hasLocality>Berlin</vcard:hasLocality>
+            <vcard:hasPostalCode>10115</vcard:hasPostalCode>
+            <vcard:hasCountryName>Deutschland</vcard:hasCountryName>
+            <vcard:hasStreetAddress>Scharnhorststr. 34‐37</vcard:hasStreetAddress>
+          </dcat:contactPoint>
+        </dct:originator>
+        <!-- Ebene der geopolitischen Abdeckung URI des Publishers -->
+        <dcatde:politicalGeocodingLevelURI rdf:resource="http://dcat-ap.de/def/politicalGeocoding/Level/federal"/>
+        <!-- Räumliche Abdeckung -->
+        <dct:spatial>
+          <dct:Location rdf:about="http://publications.europa.eu/resource/authority/country/DEU">
+            <locn:geographicName>Bundesrepublik Deutschland</locn:geographicName>
+          </dct:Location>
+        </dct:spatial>
+        <!-- Zeitliche Abdeckung -->
+        <dcterms:temporal>
+          <dcterms:PeriodOfTime>
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-17</dcat:startDate>
+            <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-17</dcat:endDate>
+          </dcterms:PeriodOfTime>
+        </dcterms:temporal>
+        <!-- Schlagworte -->
+        <dcat:keyword>CO2-Entnahme</dcat:keyword>
+        <dcat:keyword>Negativemissionen</dcat:keyword>
+        <dcat:keyword>Klimaschutz</dcat:keyword>
+        <!-- Kategorie -->
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+        <!-- Veröffentlichungsdatum  -->
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-30</dcterms:issued>
+        <!-- Aktualisierungsdatumg -->
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-12-30T00:00:00</dcterms:modified>
+        <!-- Aktualisierungsfrequenz -->
+        <!-- Sprache -->
+        <!-- Rechtsgrundlage für Zugangseröffnung -->
+        <!-- Application Profile der Metadaten -->
+        <dct:conformsTo rdf:resource="http://dcat-ap.de/def/dcatde/3.0/"/>
+      </dcat:Dataset>
+    </dcat:dataset>
+    <dcat:dataset xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dct="http://purl.org/dc/terms/" xmlns:dcatap="http://data.europa.eu/r5r/" xmlns:dcatde="http://dcat-ap.de/def/dcatde/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:vcard="http://www.w3.org/2006/vcard/ns#" xmlns:locn="http://www.w3.org/ns/locn#">
+      <dcat:Dataset rdf:about="http://daten.bmwk.de/ec5d8962-95b0-3a7e-891b-d92da3a61889">
+        <!-- Titel des Datensatzes -->
+        <dcterms:title>Klimaschutzbericht der Bundesregierung</dcterms:title>
+        <!-- Beschreibung -->
+        <dcterms:description xml:lang="DE">Die Bundesregierung legt gemäß § 10 Bundes-Klimaschutzgesetz (KSG) dem Bundestag jährlich einen Klimaschutzbericht vor. Der Bericht stellt die Entwicklung der Treibhausgasemissionen insgesamt und in den verschiedenen Sektoren als auch den Umsetzungsstand der verschiedenen Klimaschutzprogramme und der darin enthaltenen Klimaschutzmaßnahmen dar. Darüber hinaus enthält er eine Einschätzung der damit zu erwartenden Treibhausgasminderungswirkungen sowie zur Klimazielerreichung nach §3 KSG. Neben der Klimaberichterstattung in den zentralen Wirtschaftssektoren wird auch über die Umsetzung von sektorübergreifenden Maßnahmen berichtet.Die in den von der BReg beschlossenen Klimaschutzprogrammen enthaltenen Maßnahmen werden im Rahmen des Klimaschutzberichts in Form eines Templates gemonitort.</dcterms:description>
+        <!-- Distribution -->
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://daten.bmwk.de/a96c8beb-3366-3b58-8d64-3d730b90e63d">
+            <dcat:accessURL rdf:resource="http://daten.bmwk.de/a96c8beb-3366-3b58-8d64-3d730b90e63d"/>
+            <dcterms:title>Klimaschutzbericht 2022</dcterms:title>
+            <dcterms:description>Bericht an den Bundestag. Klimaschutzbericht 2022</dcterms:description>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/pdf"/>
+            <!-- Veröffentlichungsdatum  -->
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-01-01</dct:issued>
+            <!-- Aktualisierungsdatumg -->
+            <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-12-31T00:00:00</dcterms:modified>
+            <dcterms:license rdf:resource="http://dcat-ap.de/def/licenses/cc-zero"/>
+            <!-- Sprache -->
+            <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
+            <!-- Verfügbarkeit -->
+            <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <!-- Distribution -->
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://daten.bmwk.de/519161d9-3b61-349b-a5e1-d6f2bfa2d096">
+            <dcat:accessURL rdf:resource="http://daten.bmwk.de/519161d9-3b61-349b-a5e1-d6f2bfa2d096"/>
+            <dcterms:title>Klimaschutzbericht 2023</dcterms:title>
+            <dcterms:description>Bericht an den Bundestag. Klimaschutzbericht 2023</dcterms:description>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/pdf"/>
+            <!-- Veröffentlichungsdatum  -->
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-01-01</dct:issued>
+            <!-- Aktualisierungsdatumg -->
+            <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-12-31T00:00:00</dcterms:modified>
+            <dcterms:license rdf:resource="http://dcat-ap.de/def/licenses/cc-zero"/>
+            <!-- Sprache -->
+            <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
+            <!-- Verfügbarkeit -->
+            <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <!-- Distribution -->
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://daten.bmwk.de/724396ec-ef2a-397f-a8a6-a765120b0fd1">
+            <dcat:accessURL rdf:resource="http://daten.bmwk.de/724396ec-ef2a-397f-a8a6-a765120b0fd1"/>
+            <dcterms:title>Klimaschutzbericht 2024</dcterms:title>
+            <dcterms:description>Klimaschutzbericht 2024</dcterms:description>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/pdf"/>
+            <!-- Veröffentlichungsdatum  -->
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-01-01</dct:issued>
+            <!-- Aktualisierungsdatumg -->
+            <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-12-31T00:00:00</dcterms:modified>
+            <dcterms:license rdf:resource="http://dcat-ap.de/def/licenses/cc-zero"/>
+            <!-- Sprache -->
+            <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
+            <!-- Verfügbarkeit -->
+            <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcatde:contributorID rdf:resource="http://dcat-ap.de/def/contributors/bundesministeriumFuerWirtschaftUndKlimaschutz"/>
+        <!-- es fehlte noch der Datenbereitsteller-ID Eintrag für eine potentielle Anlieferung an GovData -->
+        <!-- Autor -->
+        <dcterms:creator>
+          <foaf:Organization>
+            <foaf:name>Bundesministerium für Wirtschaft und Klimaschutz</foaf:name>
+          </foaf:Organization>
+        </dcterms:creator>
+        <!-- Herausgeber -->
+        <dcterms:publisher>
+          <foaf:Organization rdf:nodeID="Nd76d04a79c2445aabcd4275e94c2bd28">
+            <foaf:name>Bundesministerium für Wirtschaft und Klimaschutz</foaf:name>
+            <foaf:mbox>OpenData@bmwk.bund.de</foaf:mbox>
+          </foaf:Organization>
+        </dcterms:publisher>
+        <dct:originator>
+          <dcat:contactPoint>
+            <vcard:fn>Bundesministerium für Wirtschaft und Klimaschutz</vcard:fn>
+            <vcard:hasEmail>Buero-KB1@bmwk.bund.de</vcard:hasEmail>
+            <vcard:hasLocality>Berlin</vcard:hasLocality>
+            <vcard:hasPostalCode>10115</vcard:hasPostalCode>
+            <vcard:hasCountryName>Deutschland</vcard:hasCountryName>
+            <vcard:hasStreetAddress>Scharnhorststr. 34‐37</vcard:hasStreetAddress>
+          </dcat:contactPoint>
+        </dct:originator>
+        <!-- Ebene der geopolitischen Abdeckung URI des Publishers -->
+        <dcatde:politicalGeocodingLevelURI rdf:resource="http://dcat-ap.de/def/politicalGeocoding/Level/federal"/>
+        <!-- Räumliche Abdeckung -->
+        <dct:spatial>
+          <dct:Location rdf:about="http://publications.europa.eu/resource/authority/country/DEU">
+            <locn:geographicName>Bundesrepublik Deutschland</locn:geographicName>
+          </dct:Location>
+        </dct:spatial>
+        <!-- Zeitliche Abdeckung -->
+        <dcterms:temporal>
+          <dcterms:PeriodOfTime>
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-01-01</dcat:startDate>
+            <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-31</dcat:endDate>
+          </dcterms:PeriodOfTime>
+        </dcterms:temporal>
+        <!-- Schlagworte -->
+        <dcat:keyword>Klima</dcat:keyword>
+        <dcat:keyword>Klimaschutz</dcat:keyword>
+        <!-- Kategorie -->
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENER"/>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/AGRI"/>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+        <!-- Veröffentlichungsdatum  -->
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-01-01</dcterms:issued>
+        <!-- Aktualisierungsdatumg -->
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-12-31T00:00:00</dcterms:modified>
+        <!-- Aktualisierungsfrequenz -->
+        <!-- Sprache -->
+        <!-- Rechtsgrundlage für Zugangseröffnung -->
+        <dcatde:legalBasis>§10 KSG</dcatde:legalBasis>
+        <!-- Application Profile der Metadaten -->
+        <dct:conformsTo rdf:resource="http://dcat-ap.de/def/dcatde/3.0/"/>
+      </dcat:Dataset>
+    </dcat:dataset>
+    <dcat:dataset xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcatde="http://dcat-ap.de/def/dcatde/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2006/vcard/ns#" xmlns:locn="http://www.w3.org/ns/locn#">
+      <dcat:Dataset rdf:about="http://daten.bmwk.de/d7eeb2d4-c898-3135-9446-cc1bb2fbaacf">
+        <!-- Titel des Datensatzes -->
+        <dcterms:title>Energiekostenvergleich an Tankstellen</dcterms:title>
+        <!-- Beschreibung -->
+        <dcterms:description xml:lang="DE">Der Deutsche Bundestag hat am 25.06.2021 die erstmalige Einführung des Energiekostenvergleichs an Tankstellen beschlossen. Hiernach sind Tankstellen mit mehr als sechs Zapfsäulen verpflichtet, einen Kostenvergleich verschiedener Energieträger (u.a. Benzin, Diesel, Strom, Erdgas, Wasserstoff) in Euro je 100 km für ausgewählte Fahrzeugsegmente im Straßenverkehr sichtbar an Zapfsäulen oder im Verkaufsraum auszuhängen. Die Kosten des vielfältigen Kraftstoff- bzw. Energieträgermarktes werden so den Verbrauchern vergleichbar aufbereitet und diese somit für alternative Antriebe und Energieträger für Personenkraftwagen sensibilisiert. Ziel des Energiekostenvergleichs ist es, eine leicht verständliche Gegenüberstellung der durchschnittlichen Kraftstoff- und Energieverbräuche je 100 km transparent aufzubereiten. Die jeweiligen Verbrauchsdaten basieren auf der Auswertung der jeweils drei meistverkauften Fahrzeugmodelle in den Segmenten Kleinwagen sowie Mittel-/Oberklasse und der jeweiligen benötigten Antriebsenergie. Weitere Informationen sowie die an Tankstellen ausgehängten Poster im PDF-Format finden Sie auf der BMWK Internetseite zum Energiekostenvergleich für Pkw.</dcterms:description>
+        <!-- Distribution -->
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://daten.bmwk.de/">
+            <dcat:accessURL rdf:resource="http://daten.bmwk.de/"/>
+            <dcterms:title>Energiekostenvergleich an Tankstellen Q4 2024</dcterms:title>
+            <dcterms:description>Ergebnisse des Energiekostenvergleichs im Q4 2024 im XLSX-Dateiformat.</dcterms:description>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/vnd.ms-excel"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">10878</dcat:byteSize>
+            <!-- Angabe der Dateigröße in Bytes -->
+            <!-- Veröffentlichungsdatum  -->
+            <!-- Aktualisierungsdatumg -->
+            <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-12-01T00:00:00</dcterms:modified>
+            <dcterms:license rdf:resource="http://dcat-ap.de/def/licenses/dl-zero-de/2.0"/>
+            <!-- Sprache -->
+            <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
+            <!-- Verfügbarkeit -->
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcatde:contributorID rdf:resource="http://dcat-ap.de/def/contributors/bundesministeriumFuerWirtschaftUndKlimaschutz"/>
+        <!-- es fehlte noch der Datenbereitsteller-ID Eintrag für eine potentielle Anlieferung an GovData -->
+        <!-- Autor -->
+        <dcterms:creator>
+          <foaf:Organization>
+            <foaf:name>Bundesministerium für Wirtschaft und Klimaschutz</foaf:name>
+          </foaf:Organization>
+        </dcterms:creator>
+        <!-- Herausgeber -->
+        <dcterms:publisher>
+          <foaf:Organization rdf:nodeID="Nd76d04a79c2445aabcd4275e94c2bd28">
+            <foaf:name>Bundesministerium für Wirtschaft und Klimaschutz</foaf:name>
+            <foaf:mbox>OpenData@bmwk.bund.de</foaf:mbox>
+          </foaf:Organization>
+        </dcterms:publisher>
+        <dct:originator>
+          <dcat:contactPoint>
+            <vcard:fn>Bundesministerium für Wirtschaft und Klimaschutz</vcard:fn>
+            <vcard:hasEmail>buero-wew4@bmwk.bund.de</vcard:hasEmail>
+            <vcard:hasLocality>Berlin</vcard:hasLocality>
+            <vcard:hasPostalCode>10115</vcard:hasPostalCode>
+            <vcard:hasCountryName>Deutschland</vcard:hasCountryName>
+            <vcard:hasStreetAddress>Scharnhorststr. 34‐37</vcard:hasStreetAddress>
+          </dcat:contactPoint>
+        </dct:originator>
+        <!-- Ebene der geopolitischen Abdeckung URI des Publishers -->
+        <dcatde:politicalGeocodingLevelURI rdf:resource="http://dcat-ap.de/def/politicalGeocoding/Level/federal"/>
+        <!-- Räumliche Abdeckung -->
+        <dct:spatial>
+          <dct:Location rdf:about="http://publications.europa.eu/resource/authority/country/DEU">
+            <locn:geographicName>Bundesrepublik Deutschland</locn:geographicName>
+          </dct:Location>
+        </dct:spatial>
+        <!-- Zeitliche Abdeckung -->
+        <!-- Schlagworte -->
+        <dcat:keyword>Energiekostenvergleich</dcat:keyword>
+        <dcat:keyword>Benzin</dcat:keyword>
+        <dcat:keyword>Diesel</dcat:keyword>
+        <dcat:keyword>Mobilitätskosten</dcat:keyword>
+        <dcat:keyword>Kraftstoffe</dcat:keyword>
+        <dcat:keyword>Kraftstoffpreise</dcat:keyword>
+        <dcat:keyword>CO2-Emissionen</dcat:keyword>
+        <dcat:keyword>Vergleich der Antriebsarten</dcat:keyword>
+        <!-- Kategorie -->
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TRAN"/>
+        <!-- Veröffentlichungsdatum  -->
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-10-01</dcterms:issued>
+        <!-- Aktualisierungsdatumg -->
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-12-01T00:00:00</dcterms:modified>
+        <!-- Aktualisierungsfrequenz -->
+        <!-- Sprache -->
+        <!-- Rechtsgrundlage für Zugangseröffnung -->
+        <!-- Application Profile der Metadaten -->
+        <dct:conformsTo rdf:resource="http://dcat-ap.de/def/dcatde/3.0/"/>
+      </dcat:Dataset>
+    </dcat:dataset>
+  </dcat:Catalog>
+</rdf:RDF>
