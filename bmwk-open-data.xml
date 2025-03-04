@@ -9,7 +9,7 @@
         <!-- Titel des Datensatzes -->
         <dcterms:title>Daten zum Gleichwertigkeitsbericht 2024 der Bundesregierung</dcterms:title>
         <!-- Beschreibung -->
-        <dcterms:description xml:lang="DE">​Die Bundesregierung hat 2024 erstmalig einen Gleichwertigkeitsbericht veröffentlicht. Der Bericht enthält eine umfassende Analyse des Stands und der Entwicklung der Lebensbedingungen vor Ort auf Basis von Indikatoren auf Ebene der deutschen Landkreise und kreisfreien Städte ebenso wie Ergebnisse einer Bevölkerungsumfrage zu gleichwertigen Lebensverhältnissen und einem Überblick über die regionale Mittelverteilung der Förderprogramme, die im Gesamtdeutschen Fördersystem für strukturschwache Regionen enthalten sind.</dcterms:description>
+        <dcterms:description xml:lang="DE">Die Bundesregierung hat 2024 erstmalig einen Gleichwertigkeitsbericht veröffentlicht. Der Bericht enthält eine umfassende Analyse des Stands und der Entwicklung der Lebensbedingungen vor Ort auf Basis von Indikatoren auf Ebene der deutschen Landkreise und kreisfreien Städte ebenso wie Ergebnisse einer Bevölkerungsumfrage zu gleichwertigen Lebensverhältnissen und einem Überblick über die regionale Mittelverteilung der Förderprogramme, die im Gesamtdeutschen Fördersystem für strukturschwache Regionen enthalten sind.</dcterms:description>
         <!-- Distribution -->
         <dcat:distribution>
           <dcat:Distribution rdf:about="http://daten.bmwk.de/3e7dd62b-8a84-34ab-8655-86329ccc42ad">
